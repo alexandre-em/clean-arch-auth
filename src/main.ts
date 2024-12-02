@@ -6,7 +6,7 @@ import * as passport from 'passport';
 import * as cookieParser from 'cookie-parser';
 
 import { AppModule } from './app.module';
-import { EnvService } from './infra/env';
+import { EnvService } from './infrastructure/env';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
